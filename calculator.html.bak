@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta name="robots" content="noindex, nofollow">
-<meta http-equiv="refresh" content="0; url=https://727a8.org/case-law.html">
+<meta http-equiv="refresh" content="0; url=https://727a8.org/calculator.html">
 <script>window.location.replace('https://727a8.org' + window.location.pathname.replace(/^\/[^\/]+/, ''));</script>
 <!-- Google tag (gtag.js) -->
 <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -20,21 +20,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
-<title>Key Cases on Section 727(a)(8) - The 8-Year Discharge Bar</title>
-<meta name="description" content="Learn about key cases on section 727(a)(8) - the 8-year discharge bar | 727a8.com in our free 2026 guide.">
-<link rel="canonical" href="https://727a8.org/case-law.html">
+<title>When Can I File Chapter 7 Again? Date Calculator - 727(a)(8)</title>
+<meta name="description" content="Free calculator: enter your prior bankruptcy filing date and find out exactly when you can file Chapter 7 again. [727(a)(8)]">
+<link rel="canonical" href="https://727a8.org/calculator.html">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <!-- Open Graph -->
-<meta property="og:title" content="Key Cases on Section 727(a)(8) - The 8-Year Discharge Bar">
-<meta property="og:description" content="Learn about key cases on section 727(a)(8) - the 8-year discharge bar | 727a8.com in our free 2026 guide.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://727a8.org/case-law.html">
+<meta property="og:title" content="When Can I File Chapter 7 Again? Date Calculator - 727(a)(8)">
+<meta property="og:description" content="Free calculator: enter your prior bankruptcy filing date and find out exactly when you can file Chapter 7 again. [727(a)(8)]">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://727a8.org/calculator.html">
 <meta property="og:image" content="https://727a8.com/og-image.png">
 <meta property="og:site_name" content="727a8.com">
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Key Cases on Section 727(a)(8) - The 8-Year Discharge Bar">
-<meta name="twitter:description" content="Learn about key cases on section 727(a)(8) - the 8-year discharge bar | 727a8.com in our free 2026 guide.">
+<meta name="twitter:title" content="When Can I File Chapter 7 Again? Date Calculator - 727(a)(8)">
+<meta name="twitter:description" content="Free calculator: enter your prior bankruptcy filing date and find out exactly when you can file Chapter 7 again. [727(a)(8)]">
 <meta name="twitter:image" content="https://727a8.com/og-image.png">
 <style>
   :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; }
@@ -60,11 +60,6 @@
   .callout.yellow { border-left-color: #e3a835; }
   .callout.red { border-left-color: var(--red); }
   .callout h4 { color: #f0f6fc; margin-bottom: 0.5rem; }
-  .case-card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; }
-  .case-card h3 { margin-top: 0; margin-bottom: 0.5rem; }
-  .case-card .cite { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.75rem; font-style: italic; }
-  .case-card .holding { margin-bottom: 0.5rem; }
-  .case-card .tag { display: inline-block; background: #21262d; color: var(--accent); padding: 0.1em 0.5em; border-radius: 3px; font-size: 0.8rem; margin-right: 0.5rem; margin-bottom: 0.25rem; }
   footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; margin-top: 3rem; color: var(--text-muted); font-size: 0.85rem; }
   footer a { color: var(--accent); }
   footer .network { margin-bottom: 1rem; }
@@ -88,31 +83,54 @@
     .nav-links .nav-label { display: block; padding: 0.5rem 1rem 0.2rem; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin: 0; }
   }
   @media (max-width: 600px) { header { padding: 1.5rem 1rem; } article { padding: 1rem; } }
+  /* Calculator styles */
+  .calc-box { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; }
+  .calc-box label { display: block; color: #f0f6fc; font-weight: 600; margin-bottom: 0.5rem; font-size: 0.95rem; }
+  .calc-box select, .calc-box input[type="date"] {
+    background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 4px;
+    padding: 0.6rem 0.75rem; font-size: 1rem; width: 100%; max-width: 300px; margin-bottom: 1rem;
+    font-family: inherit;
+  }
+  .calc-box select:focus, .calc-box input[type="date"]:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .calc-box input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.8); }
+  .calc-btn {
+    background: var(--accent); color: #fff; border: none; border-radius: 6px;
+    padding: 0.7rem 1.5rem; font-size: 1rem; font-weight: 600; cursor: pointer;
+    min-height: 44px;
+  }
+  .calc-btn:hover { background: #4c9aed; }
+  .calc-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+  #result { margin-top: 1.5rem; }
+  .result-eligible { background: var(--surface); border: 1px solid var(--green); border-left: 4px solid var(--green); border-radius: 0 6px 6px 0; padding: 1rem 1.5rem; }
+  .result-eligible h4 { color: var(--green); }
+  .result-barred { background: var(--surface); border: 1px solid var(--red); border-left: 4px solid var(--red); border-radius: 0 6px 6px 0; padding: 1rem 1.5rem; }
+  .result-barred h4 { color: var(--red); }
+  .result-note { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.75rem; }
+  .field-group { margin-bottom: 1rem; }
+  #seventyPctGroup { display: none; margin-top: 0.5rem; padding: 0.75rem; background: var(--bg); border-radius: 4px; border: 1px solid var(--border); }
   @media print {
     body { background: #fff; color: #000; }
     header, nav, footer, .skip-link { display: none; }
     article { max-width: 100%; padding: 0; }
     a { color: #000; text-decoration: underline; }
-    .callout { border-color: #ccc; background: #f9f9f9; }
-    .case-card { border-color: #ccc; background: #f9f9f9; }
-    h2 { border-bottom-color: #ccc; color: #000; }
-    h3 { color: #000; }
+    .calc-box { border-color: #ccc; background: #f9f9f9; }
   }
 
 .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://727a8.com/"},{"@type":"ListItem","position":2,"name":"Case Law","item":"https://727a8.com/case-law.html"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://727a8.com/"},{"@type":"ListItem","position":2,"name":"Date Calculator","item":"https://727a8.com/calculator.html"}]}
 </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Key Cases on Section 727(a)(8)",
-  "description": "Important court decisions interpreting the 8-year Chapter 7 discharge bar under Section 727(a)(8).",
-  "url": "https://727a8.com/case-law.html",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-03-26",
+  "@type": "WebApplication",
+  "name": "Chapter 7 Refiling Date Calculator",
+  "description": "Calculate when you can file Chapter 7 again based on your prior bankruptcy filing date. Handles 727(a)(8) and 727(a)(9) discharge bars.",
+  "url": "https://727a8.com/calculator.html",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project" }
 }
 </script>
@@ -123,7 +141,7 @@
     {
       "@type": "Article",
       "headline": "727a8.com",
-      "description": "Important court decisions interpreting Section 727(a)(8), the 8-year Chapter 7 discharge bar. Filing date calculation disputes, tolling questions, and the BAPCP",
+      "description": "Free calculator: enter your prior bankruptcy filing date and find out exactly when you can file Chapter 7 again. Handles 727(a)(8) 8-year bar and 727(a)(9) 6-ye",
       "author": {
         "@type": "Organization",
         "name": "Open Bankruptcy Project"
@@ -135,35 +153,29 @@
       },
       "datePublished": "2026-03-28",
       "dateModified": "2026-03-29",
-      "mainEntityOfPage": "https://727a8.com/case-law.html"
+      "mainEntityOfPage": "https://727a8.com/calculator.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "727a8.com",
+      "url": "https://727a8.com/calculator.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
     }
   ]
 }
 </script>
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What debts are discharged in bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "Most unsecured debts are discharged, including credit cards, medical bills, personal loans, and utility arrears. Debts that typically cannot be discharged include student loans (except in hardship cases), most taxes, child support, alimony, and debts from fraud or willful injury."}}, {"@type": "Question", "name": "How long does it take to get a bankruptcy discharge?", "acceptedAnswer": {"@type": "Answer", "text": "In Chapter 7, the discharge typically arrives about 60 days after the 341 meeting, or roughly 3-4 months after filing. In Chapter 13, the discharge comes after completing all plan payments, which takes 3-5 years."}}, {"@type": "Question", "name": "Can a creditor object to my discharge?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Creditors can file an adversary proceeding arguing that a specific debt should not be discharged due to fraud, misrepresentation, or other exceptions under 11 U.S.C. Section 523. They can also object to your entire discharge under Section 727 for misconduct like hiding assets."}}, {"@type": "Question", "name": "What is the difference between a discharge and a dismissal?", "acceptedAnswer": {"@type": "Answer", "text": "A discharge eliminates your personal liability for qualifying debts permanently. A dismissal ends your bankruptcy case without eliminating any debts, as if you never filed. A dismissal may also impose a waiting period before you can file again."}}, {"@type": "Question", "name": "Can my bankruptcy discharge be revoked?", "acceptedAnswer": {"@type": "Answer", "text": "In rare cases, yes. A discharge can be revoked within one year if the debtor committed fraud, failed to disclose assets, or refused to obey a court order. Revocation requires a court proceeding initiated by the trustee, a creditor, or the U.S. Trustee."}}]}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NonprofitOrganization",
-  "name": "Open Bankruptcy Project",
-  "alternateName": "OBP",
-  "url": "https://openbankruptcyproject.org",
-  "email": "info@openbankruptcyproject.org",
-  "taxID": "41-5159631",
-  "nonprofitStatus": "Nonprofit501c3",
-  "description": "The Open Bankruptcy Project is a 501(c)(3) nonprofit providing free tools, research, and consumer guides to help people navigate the federal bankruptcy system. We also conduct and publish empirical research on how the system actually works for consumers and share findings with rule-making bodies, regulators, and the public.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1000 W 100th St",
-    "addressLocality": "Kansas City",
-    "addressRegion": "MO",
-    "postalCode": "64114",
-    "addressCountry": "US"
-  }
-}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How This Calculator Works?", "acceptedAnswer": {"@type": "Answer", "text": "The calculator applies the following rules from the Bankruptcy Code: Prior Chapter 7 or 11 discharge: You must wait 8 years from the prior filing date to file a new Chapter 7 and receive a discharge. This is Section 727(a)(8) ."}}, {"@type": "Question", "name": "What About Filing Chapter 13 Instead?", "acceptedAnswer": {"@type": "Answer", "text": "This calculator only addresses Chapter 7 eligibility. If you want to file Chapter 13 instead, different rules apply under Section 1328(f) : Prior Chapter 7 discharge: 4-year bar on Chapter 13 discharge (filing date to filing date) Prior Chapter 13 discharge: 2-year bar on Chapter 13 discharge..."}}]}
 </script>
 </head>
 <body>
@@ -190,123 +202,74 @@
 <a href="#main" class="skip-link">Skip to main content</a>
 <header role="banner">
   <h1><a href="/" style="color: #f0f6fc; text-decoration: none;"><span class="accent">727a8</span>.com</a></h1>
-  <p class="subtitle">Key Cases on <a href="https://727a8.com/" title="Section 727(a)(8)">Section 727(a)(8)</a></p>
+  <p class="subtitle">When Can I File <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> Again?</p>
 </header>
-<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://727a8.com/">Home</a><span class="separator">&rsaquo;</span><span>Case Law</span></nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://727a8.com/">Home</a><span class="separator">&rsaquo;</span><span>Date Calculator</span></nav>
 
 
 <article id="main" role="main">
 
-<h2>Overview</h2>
+<h2>Chapter 7 Refiling Date Calculator</h2>
 
-<p><a href="https://727a8.com" title="Section 727 Chapter 7 Discharge - Open Bankruptcy Project" target="_blank" rel="noopener">Section 727</a>(a)(8) is a relatively straightforward statute, but courts have addressed several interpretive questions over the years. This page collects key decisions on the 8-year <a href="https://dischargebar.org" title="Bankruptcy Discharge Bar - Open Bankruptcy Project" target="_blank" rel="noopener">discharge bar</a>, organized by topic. These cases illustrate how courts handle filing date disputes, the <a href="https://1328f.com/glossary.html#bapcpa" title="BAPCPA">BAPCPA</a> transition, and the relationship between 727(a)(8) and other <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> bars.</p>
+<p>Enter your prior bankruptcy filing date and case type below. This calculator will tell you the earliest date you can file a new <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> and receive a <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a>, based on Sections <a href="/">727(a)(8)</a> and <a href="/727a9.html">727(a)(9)</a> of the Bankruptcy Code.</p>
 
-<p>For case law on the 70% exception and the 6-year bar, see the <a href="/727a9.html">Section 727(a)(9) page</a>. For case law on <a href="https://section1328.org" title="Section 1328 Discharge - Open Bankruptcy Project" target="_blank" rel="noopener">Section 1328</a>(f), see <a href="https://1328f.com/caselaw.html">1328f.com case law</a>.</p>
+<div class="calc-box">
+  <div class="field-group">
+    <label for="priorType">What chapter was your prior case?</label>
+    <select id="priorType" aria-describedby="priorTypeHelp">
+      <option value="7">Chapter 7</option>
+      <option value="11"><a href="https://section1191.org/" title="Chapter 11">Chapter 11</a> (individual)</option>
+      <option value="13"><a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a></option>
+      <option value="12">Chapter 12</option>
+    </select>
+    <div id="priorTypeHelp" style="color: var(--text-muted); font-size: 0.85rem; margin-top: -0.5rem; margin-bottom: 1rem;">Select the chapter of your <em>prior</em> case that resulted in a <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a>.</div>
+  </div>
 
-<h2>Filing Date Measurement</h2>
+  <div class="field-group">
+    <label for="filingDate">Prior case filing date (petition date)</label>
+    <input type="date" id="filingDate" aria-describedby="filingDateHelp">
+    <div id="filingDateHelp" style="color: var(--text-muted); font-size: 0.85rem; margin-top: -0.5rem; margin-bottom: 1rem;">This is the date you <em>filed</em> the prior case, not the date you received the discharge.</div>
+  </div>
 
-<p>The most litigated issue under 727(a)(8) is the measurement of the 8-year period. The statute is clear that it runs from filing date to filing date, but disputes arise over exactly what constitutes the "date of the filing of the petition."</p>
+  <div id="seventyPctGroup">
+    <label style="font-weight: normal; font-size: 0.9rem;">
+      <input type="checkbox" id="seventyPct" style="margin-right: 0.5rem; width: auto;">
+      I paid at least 70% of unsecured claims and the plan was proposed in <a href="https://chapter13plan.org/" title="good faith">good faith</a> with best effort.
+    </label>
+    <div style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.5rem;">If checked, the 727(a)(9) 6-year bar may not apply. See <a href="/727a9.html">Section 727(a)(9)</a> for details.</div>
+  </div>
 
-<div class="case-card">
-<h3>In re Bianucci</h3>
-<p class="cite">4 F.3d 526 (7th Cir. 1993)</p>
-<span class="tag">Filing Date</span> <span class="tag">7th Circuit</span>
-<p class="holding"><strong>Holding:</strong> The <a href="https://dischargebar.org" title="Bankruptcy Discharge Bar - Open Bankruptcy Project" target="_blank" rel="noopener">discharge bar</a> period runs from the date the prior petition was filed to the date the new petition is filed. The date the prior <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> was entered is irrelevant. The court emphasized that the plain language of the statute refers to "a case commenced" within the relevant period, and a case is commenced when the petition is filed under Section 301.</p>
-<p>This pre-BAPCPA decision applied the former 6-year bar but established the filing-date-to-filing-date principle that carries forward to the current 8-year version.</p>
+  <button class="calc-btn" onclick="calculate()" aria-label="Calculate eligibility date">Calculate Eligibility Date</button>
+
+  <div id="result" role="status" aria-live="polite"></div>
 </div>
 
-<div class="case-card">
-<h3>In re Zarnel</h3>
-<p class="cite">619 F.3d 156 (2d Cir. 2010)</p>
-<span class="tag">Filing Date</span> <span class="tag">2nd Circuit</span>
-<p class="holding"><strong>Holding:</strong> The debtor's <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> discharge was properly denied where the prior <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> case was filed within 8 years of the new petition date. The court rejected the debtor's argument that the period should be measured from the discharge date of the prior case, finding the statute's reference to "a case commenced" unambiguous.</p>
-</div>
+<h2>How This Calculator Works</h2>
 
-<h2>The BAPCPA Transition</h2>
-
-<p>When <a href="https://1328f.com/glossary.html#bapcpa" title="BAPCPA">BAPCPA</a> extended the bar from 6 years to 8 years on October 17, 2005, some debtors were caught in the transition. They had waited 6 years under the old rule but had not yet reached 8 years under the new rule.</p>
-
-<div class="case-card">
-<h3>In re Gagliardi</h3>
-<p class="cite">340 B.R. 585 (Bankr. D. Conn. 2006)</p>
-<span class="tag">BAPCPA Transition</span> <span class="tag">Connecticut</span>
-<p class="holding"><strong>Holding:</strong> The 8-year bar applies to cases filed on or after October 17, 2005, regardless of when the prior case was filed. The debtor, who had filed the prior case in 1999 and filed a new case in 2006 (7 years later), was barred from discharge under the new 8-year rule. The court rejected the argument that the old 6-year rule should apply because the prior case was filed before BAPCPA.</p>
-</div>
-
-<div class="case-card">
-<h3>In re Laubach</h3>
-<p class="cite">356 B.R. 109 (Bankr. E.D. Pa. 2006)</p>
-<span class="tag">BAPCPA Transition</span> <span class="tag">Pennsylvania</span>
-<p class="holding"><strong>Holding:</strong> The BAPCPA amendment to <a href="https://727a8.com" title="Section 727 Chapter 7 Discharge - Open Bankruptcy Project" target="_blank" rel="noopener">Section 727</a>(a)(8) applies based on the filing date of the new case. Since the debtor's new case was filed after October 17, 2005, the 8-year bar governed. The court found no retroactivity problem because the statute imposes a prospective condition on the new filing.</p>
-</div>
-
-<h2>Tolling and Equitable Defenses</h2>
-
-<p>Courts have consistently held that the 8-year period under 727(a)(8) is not subject to equitable tolling. The rule is mechanical: if the prior case was filed within 8 years, the bar applies.</p>
-
-<div class="case-card">
-<h3>In re Caravona</h3>
-<p class="cite">347 B.R. 259 (Bankr. N.D. Ohio 2006)</p>
-<span class="tag">No Tolling</span> <span class="tag">Ohio</span>
-<p class="holding"><strong>Holding:</strong> The 8-year period under <a href="https://727a8.com" title="Section 727 Chapter 7 Discharge - Open Bankruptcy Project" target="_blank" rel="noopener">Section 727</a>(a)(8) is a bright-line rule that does not admit equitable exceptions. The debtor argued that <a href="https://bankruptcyhardship.org/" title="hardship discharge">hardship</a> circumstances warranted shortening the bar period, but the court held the statute is mandatory ("the court shall grant... unless") and leaves no room for judicial discretion.</p>
-<p>This principle is consistent across circuits: <a href="https://727a8.com" title="Section 727 Chapter 7 Discharge - Open Bankruptcy Project" target="_blank" rel="noopener">Section 727</a>(a)(8) is not subject to equitable tolling, estoppel, or laches.</p>
-</div>
-
-<h2>Dismissed vs. Discharged Cases</h2>
-
-<p>A critical distinction: <a href="https://727a8.com" title="Section 727 Chapter 7 Discharge - Open Bankruptcy Project" target="_blank" rel="noopener">Section 727</a>(a)(8) applies only when the debtor "has been granted a discharge" in the prior case. If the prior case was dismissed, no discharge was granted, and the bar does not apply.</p>
-
-<div class="case-card">
-<h3>In re Szadkowski</h3>
-<p class="cite">400 B.R. 564 (Bankr. S.D. Ohio 2009)</p>
-<span class="tag"><a href="https://dismissedbankruptcy.org/" title="dismissal">Dismissal</a></span> <span class="tag">Ohio</span>
-<p class="holding"><strong>Holding:</strong> Where the debtor's prior Chapter 7 case was dismissed before any discharge was entered, <a href="https://727a8.com/" title="Section 727(a)(8)">Section 727(a)(8)</a> did not bar discharge in the subsequent case. The court distinguished between cases that result in a discharge and those that do not, finding that only an actual grant of discharge triggers the bar.</p>
-</div>
-
-<div class="case-card">
-<h3>In re Markus</h3>
-<p class="cite">313 F.3d 1146 (9th Cir. 2002)</p>
-<span class="tag">Revoked Discharge</span> <span class="tag">9th Circuit</span>
-<p class="holding"><strong>Holding:</strong> A discharge that has been revoked under Section 727(d) still counts as "granted" for purposes of the <a href="https://dischargebar.org" title="Bankruptcy Discharge Bar - Open Bankruptcy Project" target="_blank" rel="noopener">discharge bar</a>. The prior 6-year bar (now 8-year) applied even though the prior discharge was later revoked for fraud. The court reasoned that the statute focuses on whether a discharge was granted, not whether it remains in effect.</p>
-<p>This is a minority position, and some courts have reached the opposite conclusion. Debtors in this situation should research their circuit's position carefully.</p>
-</div>
-
-<h2>Conversion Cases</h2>
-
-<p>When a case is converted between chapters, the filing date for 727(a)(8) purposes is the date the original petition was filed, not the date of conversion.</p>
-
-<div class="case-card">
-<h3>In re Bohrer</h3>
-<p class="cite">266 B.R. 200 (Bankr. N.D. Cal. 2001)</p>
-<span class="tag">Conversion</span> <span class="tag">California</span>
-<p class="holding"><strong>Holding:</strong> When a case is converted from <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> to Chapter 7, the case is deemed "commenced" on the date the original <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> petition was filed under Section 348(a). The conversion date does not restart the clock for purposes of 727(a)(8) in any future case.</p>
-</div>
-
-<h2>Relationship to Other Bars</h2>
-
-<div class="case-card">
-<h3>In re Bateman</h3>
-<p class="cite">515 B.R. 359 (Bankr. M.D. Ala. 2014)</p>
-<span class="tag">Multiple Bars</span> <span class="tag">Alabama</span>
-<p class="holding"><strong>Holding:</strong> A debtor may be subject to multiple discharge bars simultaneously. The debtor had a prior Chapter 7 (triggering 727(a)(8) for a new Chapter 7) and a prior Chapter 13 (triggering <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> for a new Chapter 13). The court analyzed both bars independently and found the debtor was barred from discharge under any chapter.</p>
-<p>This case illustrates why debtors with multiple prior filings should use a tool like the <a href="https://1328f.com/check.html">1328f.com screener</a> to check all bars simultaneously.</p>
-</div>
-
-<h2>Practical Takeaways</h2>
+<p>The calculator applies the following rules from the Bankruptcy Code:</p>
 
 <ul>
-  <li><strong>Filing date controls.</strong> Every circuit that has addressed the question agrees: the 8-year period runs from filing date to filing date.</li>
-  <li><strong>No equitable exceptions.</strong> Courts will not shorten the 8-year period for <a href="https://bankruptcyhardship.org/" title="hardship discharge">hardship</a> or other equitable reasons.</li>
-  <li><strong><a href="https://dismissedbankruptcy.org/" title="dismissal">Dismissal</a> is different from discharge.</strong> If your prior case was dismissed, 727(a)(8) does not apply.</li>
-  <li><strong>Revoked discharges may still count.</strong> Circuit splits exist on whether a revoked discharge triggers the bar. Check your circuit.</li>
-  <li><strong>Conversion does not restart the clock.</strong> The original filing date controls, not the conversion date.</li>
+  <li><strong>Prior Chapter 7 or 11 discharge:</strong> You must wait <strong>8 years</strong> from the prior filing date to file a new Chapter 7 and receive a discharge. This is <a href="/">Section 727(a)(8)</a>.</li>
+  <li><strong>Prior <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> discharge:</strong> You must wait <strong>6 years</strong> from the prior filing date - unless you paid 100% of unsecured claims, or paid at least 70% in <a href="https://chapter13plan.org/" title="good faith">good faith</a> with best effort. This is <a href="/727a9.html">Section 727(a)(9)</a>.</li>
+  <li><strong>Prior Chapter 12 discharge:</strong> Same 6-year rule as Chapter 13, with the same exceptions. Also <a href="https://727a8.com" title="Section 727 Chapter 7 Discharge - Open Bankruptcy Project" target="_blank" rel="noopener">Section 727</a>(a)(9).</li>
 </ul>
 
-<p>For additional case law resources, see <a href="https://1328f.com/caselaw.html">1328f.com case law</a> and the <a href="https://1328f.org/reports/">1328f.org research reports</a>.</p>
+<p>All periods are measured from <strong>filing date to filing date</strong>. The discharge date of the prior case does not affect the calculation.</p>
+
+<h2>What About Filing Chapter 13 Instead?</h2>
+
+<p>This calculator only addresses Chapter 7 eligibility. If you want to file Chapter 13 instead, different rules apply under <a href="/vs-1328f.html">Section 1328(f)</a>:</p>
+
+<ul>
+  <li>Prior Chapter 7 discharge: 4-year bar on Chapter 13 discharge (filing date to filing date)</li>
+  <li>Prior Chapter 13 discharge: 2-year bar on Chapter 13 discharge (filing date to filing date)</li>
+</ul>
+
+<p>Use the <a href="https://1328f.com/check.html">1328f.com eligibility screener</a> to check all discharge bars across all chapter combinations at once.</p>
 
 <div class="callout yellow">
 <h4>Not Legal Advice</h4>
-<p>This page summarizes published court decisions for educational purposes. Case law varies by jurisdiction, and decisions may have been modified or overruled. Do not rely on these summaries as legal authority. Consult a bankruptcy attorney for advice about your specific situation.</p>
+<p>This calculator provides general information based on the Bankruptcy Code. Individual circumstances may vary. Court practices, local rules, and specific case facts can affect eligibility. Consult a bankruptcy attorney before making filing decisions.</p>
 </div>
 
 </article>
@@ -379,16 +342,15 @@
   </div>
   <div class="links">
     <a href="/">727(a)(8) Explained</a>
-    <a href="/calculator.html">Date Calculator</a>
     <a href="/727a9.html">727(a)(9)</a>
     <a href="/vs-1328f.html">Compare Discharge Bars</a>
+    <a href="/case-law.html">Case Law</a>
   </div>
   <p style="margin-top: 1rem;">&copy; 2026 727a8.com. Educational use. Not legal advice.</p>
   <p style="margin-top:0.75rem;font-size:0.8rem"><a href="https://openbankruptcyproject.org/privacy.html?utm_source=727a8.com&utm_medium=referral&utm_campaign=btn-network" style="color:#7d8590;text-decoration:none">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html?utm_source=727a8.com&utm_medium=referral&utm_campaign=btn-network" style="color:#7d8590;text-decoration:none">Terms</a> | <a href="https://openbankruptcyproject.org?utm_source=727a8.com&utm_medium=referral&utm_campaign=btn-network" style="color:#7d8590;text-decoration:none">Open Bankruptcy Project</a></p>
 <div style="text-align:center;padding:1rem 0 0;border-top:1px solid #30363d;margin-top:1.5rem">
 <p style="color:#7d8590;font-size:0.75rem">Our research was cited by the federal judiciary as <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" target="_blank" rel="noopener" style="color:#58a6ff">Suggestion 26-BK-3</a></p>
 </div>
-<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
 </footer>
 <!-- BTN:FOOTER:END -->
 <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1.5rem;text-align:center;max-width:900px;margin:2rem auto 0">
@@ -410,12 +372,116 @@
 </div>
 <script>fetch("https://1328f.com/data/recap-count.json").then(function(r){return r.json()}).then(function(d){var e=document.getElementById("recap-count");if(e&&d.count!==undefined)e.textContent=d.count.toLocaleString();var b=document.getElementById("recap-bar");if(b&&d.count)b.style.width=Math.min(100,d.count/37900000*100).toFixed(4)+"%";var dn=document.getElementById("recap-donated");if(dn&&d.donated!==undefined)dn.textContent="$"+d.donated.toLocaleString()}).catch(function(){})</script>
 
+<script>
+(function() {
+  var priorType = document.getElementById('priorType');
+  var seventyGroup = document.getElementById('seventyPctGroup');
+  priorType.addEventListener('change', function() {
+    if (this.value === '13' || this.value === '12') {
+      seventyGroup.style.display = 'block';
+    } else {
+      seventyGroup.style.display = 'none';
+    }
+  });
+})();
+
+function calculate() {
+  var priorType = document.getElementById('priorType').value;
+  var filingDateStr = document.getElementById('filingDate').value;
+  var seventyPct = document.getElementById('seventyPct').checked;
+  var resultDiv = document.getElementById('result');
+
+  if (!filingDateStr) {
+    resultDiv.innerHTML = '<div class="callout red"><h4>Please enter a filing date</h4><p>Enter the date your prior bankruptcy case was filed (the petition date).</p></div>';
+    return;
+  }
+
+  var parts = filingDateStr.split('-');
+  var filingDate = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+  var today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  var yearsToAdd;
+  var statute;
+  var explanation;
+
+  if (priorType === '7' || priorType === '11') {
+    yearsToAdd = 8;
+    statute = '727(a)(8)';
+    explanation = 'Section 727(a)(8) requires 8 years between filing dates when the prior discharge was under Chapter ' + priorType + '.';
+  } else {
+    // Chapter 12 or 13
+    if (seventyPct) {
+      yearsToAdd = 0;
+      statute = '727(a)(9) exception';
+      explanation = 'If you paid at least 70% of unsecured claims and the plan was proposed in good faith with best effort, the 6-year bar under Section 727(a)(9) does not apply. However, this determination is made by the court, not automatically.';
+    } else {
+      yearsToAdd = 6;
+      statute = '727(a)(9)';
+      explanation = 'Section 727(a)(9) requires 6 years between filing dates when the prior discharge was under Chapter ' + priorType + '.';
+    }
+  }
+
+  if (yearsToAdd === 0) {
+    resultDiv.innerHTML = '<div class="result-eligible"><h4>Potentially Eligible (Court Determination Required)</h4>' +
+      '<p>' + explanation + '</p>' +
+      '<p class="result-note">The court will evaluate whether the 70% payment threshold was met and whether the plan was proposed in good faith with best effort. You should verify this with your attorney and have documentation of plan payments ready.</p></div>';
+    if (typeof gtag === 'function') {
+      gtag('event', 'calculator_result', { event_category: '727_calculator', event_label: 'ch' + priorType + '_70pct_exception', prior_chapter: priorType });
+    }
+    return;
+  }
+
+  var eligibleDate = new Date(filingDate.getFullYear() + yearsToAdd, filingDate.getMonth(), filingDate.getDate());
+  var eligible = today >= eligibleDate;
+
+  var filingFormatted = filingDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  var eligibleFormatted = eligibleDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+  if (eligible) {
+    var html = '<div class="result-eligible">';
+    html += '<h4>Eligible to File Chapter 7</h4>';
+    html += '<p>Your prior Chapter ' + priorType + ' was filed on <strong>' + filingFormatted + '</strong>. ';
+    html += 'The ' + yearsToAdd + '-year bar under ' + statute + ' expired on <strong>' + eligibleFormatted + '</strong>.</p>';
+    html += '<p>' + explanation + '</p>';
+    html += '<p class="result-note">You are past the ' + statute + ' bar window. Other eligibility requirements (means test, credit counseling, etc.) still apply. This does not constitute legal advice.</p>';
+    html += '</div>';
+  } else {
+    var diffMs = eligibleDate - today;
+    var diffDays = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+    var diffMonths = (eligibleDate.getFullYear() - today.getFullYear()) * 12 + (eligibleDate.getMonth() - today.getMonth());
+    var remainLabel = diffDays < 60 ? diffDays + ' days' : Math.round(diffMonths) + ' months';
+
+    var html = '<div class="result-barred">';
+    html += '<h4>Not Yet Eligible for Chapter 7 Discharge</h4>';
+    html += '<p>Your prior Chapter ' + priorType + ' was filed on <strong>' + filingFormatted + '</strong>. ';
+    html += 'Under ' + statute + ', you must wait until <strong>' + eligibleFormatted + '</strong> (' + remainLabel + ' from today).</p>';
+    html += '<p>' + explanation + '</p>';
+    html += '<p class="result-note"><strong>Alternatives:</strong> You may be able to file <a href="/vs-1328f.html">Chapter 13</a> in the meantime, though Section 1328(f) may limit your Chapter 13 discharge. Use the <a href="https://1328f.com/check.html">1328f.com screener</a> to check all options.</p>';
+    html += '</div>';
+  }
+
+  resultDiv.innerHTML = html;
+
+  if (typeof gtag === 'function') {
+    gtag('event', 'calculator_result', {
+      event_category: '727_calculator',
+      event_label: eligible ? 'eligible' : 'barred',
+      prior_chapter: priorType,
+      statute: statute,
+      days_remaining: eligible ? 0 : diffDays
+    });
+  }
+}
+</script>
+
 <script src="/btn-engage.js" defer></script>
+<div style="text-align:center;padding:16px;color:#8b949e;font-size:0.8rem;border-top:1px solid #30363d;margin-top:20px"><p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p></div>
 <!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
 <div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
   <p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
   <ul style="list-style:none;padding:0;margin:0">
-    <li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=727a8&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=727a8&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
     <li style="margin-bottom:0.5rem"><a href="https://openbankruptcyproject.org/?utm_source=727a8&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Open Bankruptcy Project</a> <span style="color:#7d8590;font-size:0.8rem">-- openbankruptcyproject.org</span></li>
     <li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=727a8&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
   </ul>
